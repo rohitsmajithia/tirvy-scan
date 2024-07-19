@@ -2,7 +2,7 @@ on:
  - push
  - workflow_dispatch
 
- jobs:
+jobs:
    container_scanning_using_trivy:
      runs-on: ubuntu-latest
      steps:
